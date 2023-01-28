@@ -4,6 +4,11 @@ namespace DesafioPOO.Models
     public class Nokia : Smartphone
     {
         // TODO: Sobrescrever o método "InstalarAplicativo"
+        public Nokia(string numero) : base(numero)
+        {
+
+        }
+        
         public override void InstalarAplicativo(string nomeApp)
         {
             throw new NotImplementedException();
