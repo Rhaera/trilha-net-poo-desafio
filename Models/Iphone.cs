@@ -11,13 +11,16 @@ namespace DesafioPOO.Models
         memoria)
         {
 
-            
+            Numero = numero;
+            Modelo = modelo;
+            IMEI = imei;
+            Memoria = memoria;            
 
         }
 
         public override void InstalarAplicativo(string nomeApp)
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"Aplicativo {nomeApp} instalado com sucesso no Iphone.");
         }
     }
 }
